@@ -2,6 +2,56 @@
 
 A place where I host some research content I've produced.
 
+<!-- toc -->
+- [Content](#Content)
+  - [Encoding human-like operational knowledge using declarative Kubernetes operator patterns](#Encoding-human-like-operational-knowledge-using-declarative-Kubernetes-operator-patterns)
+- [File-specific Licensing](#File-specific-Licensing)
+- [No Contributions (yet!)](#No-Contributions-yet)
+<!-- /toc -->
+
+## Content
+
+### Encoding human-like operational knowledge using declarative Kubernetes operator patterns
+
+- **Type**: Bachelor's thesis of Science and Technology
+- **Advisors**:
+  - [Prof. Mario Di Francesco](https://people.aalto.fi/mario.di.francesco)
+  - [Dr. Stefan Schimanski](https://github.com/sttts)
+- **Date**: December 2021
+- **Keywords**: cloud native, Kubernetes, servers, cloud services, control engineering,
+entropy, automation, declaration of intent, interfaces (computer
+programmes), scalability
+- **License**: [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
+- **PDF**: [Read it here](bsc_thesis.pdf)
+
+In recent years, the cloud native paradigm has emerged as an effective way of
+managing server infrastructure, with over 100,000 open source contributors and users
+such as Apple, CERN, Deutsche Telekom, JD.COM, Nokia and Spotify. Cloud native
+is a mindset; a set of patterns and practices that provide for efficient, scalable, and
+resilient server infrastructure control.
+
+Although cloud native has a definition and has been implemented widely, accessible
+context on why cloud native converged to its present state is scarce. Consequently,
+if the reasons for a pattern is not known, the pattern might not be implemented
+correctly, or, worse, at all. The aim of this thesis is to gather this context and
+showcase the benefits of cloud native implementation in Kubernetes operators. In
+other words, the goal is to identify methodologies for being able to scale systems,
+even beyond human cognitive limits, while still keeping the system in a reliable state.
+
+Through review of articles relating to server infrastructure control and open
+source cloud native resources, this thesis finds that some control problems are noticed
+mostly at large scale, which can lead small-scale users into a false sense of control.
+The problems include the impact of inevitable entropy increase, randomness, failures
+and limited information transfer rate. Through codifying human-like operational
+knowledge, Kubernetes operators can effectively combat these problems and allow
+for greater resource, knowledge, and monitoring scalability.
+
+Kubernetes operators form a novel programming model, allowing a shift from
+humans managing servers to servers managing servers, analogously to the Industrial
+Revolution. This empowers users to once codify the control mechanism, deploy it
+using a declarative abstraction layer, then finally, benefit from both system scalability
+and reliability.
+
 ## File-specific Licensing
 
 No general, repo-wide license for now. [Here's what that means](https://choosealicense.com/no-permission/). Instead, each file or directory is **explicitly licensed** (e.g. using some kind of Creative Commons license).
