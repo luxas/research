@@ -12,12 +12,6 @@ A place where I host some research content I've produced.
 
 <!-- tocstop -->
 
-- [Content](#Content)
-  - [Encoding human-like operational knowledge using declarative Kubernetes operator patterns](#Encoding-human-like-operational-knowledge-using-declarative-Kubernetes-operator-patterns)
-- [File-specific Licensing](#File-specific-Licensing)
-- [No Contributions (yet!)](#No-Contributions-yet)
-<!-- /toc -->
-
 ## Content
 
 ### Usable Access Control in Cloud Management Systems
