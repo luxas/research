@@ -3,6 +3,15 @@
 A place where I host some research content I've produced.
 
 <!-- toc -->
+
+- [Content](#content)
+  * [Usable Access Control in Cloud Management Systems](#usable-access-control-in-cloud-management-systems)
+  * [Encoding human-like operational knowledge using declarative Kubernetes operator patterns](#encoding-human-like-operational-knowledge-using-declarative-kubernetes-operator-patterns)
+- [File-specific Licensing](#file-specific-licensing)
+- [No Contributions (yet!)](#no-contributions-yet)
+
+<!-- tocstop -->
+
 - [Content](#Content)
   - [Encoding human-like operational knowledge using declarative Kubernetes operator patterns](#Encoding-human-like-operational-knowledge-using-declarative-Kubernetes-operator-patterns)
 - [File-specific Licensing](#File-specific-Licensing)
@@ -10,6 +19,56 @@ A place where I host some research content I've produced.
 <!-- /toc -->
 
 ## Content
+
+### Usable Access Control in Cloud Management Systems
+
+- **Type**: Master's thesis of Science and Technology
+- **Supervisor**: [Dr. Sanna Suoranta](https://research.aalto.fi/en/persons/sanna-suoranta)
+- **Advisor**: [Dr. Stefan Schimanski](https://github.com/sttts)
+- **Date**: Submitted for approval on May 26, 2025
+- **Keywords**: Kubernetes, access control, Cedar, satisfiability modulo theories
+- **License**: [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+- **PDF**: [Read it here](msc_thesis.pdf)
+
+**Abstract:**
+
+Kubernetes has emerged as a primary method and unified platform for managing
+server infrastructure, across both public and private clouds. Kubernetes
+provides a uniform, generic, extensible and declarative application programming
+interface (API), that both allow humans to self-service, and other platforms to
+build on top.
+
+The Open Worldwide Application Security Project (OWASP) highlighted Broken
+Access Control as the top API security weakness in 2023. Kubernetes provides
+powerful access control mechanisms, but for the authorization and admission
+request stages separately. There is no concept of conditional authorization,
+which would bind these two separate stages together uniformly.
+
+This thesis proposes empowering policy authors to write conditionally authorized
+policies, and a method to implement this, without changing Kubernetes core. This
+capability makes it easier to write right-sized policies, without having to
+understand the request stage separation internals.
+
+This thesis also proposes an encoding of Kubernetes API surface into a
+general-purpose authorization language, Cedar Policy. Cedar was chosen after
+extensive evaluation of the authorization engine landscape, because it is
+expressive, safe, fast, and even analyzable in satisfiability modulo theories
+(SMT) logic. The SMT encoding empowers features such as autocompletion, policy
+validation, and partially ordering the policies, which all then by the proposed
+integration can benefit Kubernetes policy authors.
+
+This thesis finds the outlook positive for Kubernetes being able to map into the
+Cedar data model, and thus be able to take advantage of advanced general-purpose
+features. This composable approach reduces the engineering effort required in
+Kubernetes when implementing features. It is found that it is possible to
+empower policy authors to write uniform, conditionally authorized policies
+without exposing the Kubernetes-internal two-stage split to the author. However,
+not all Cedar features required for this Kubernetes integration are yet
+available as stable features.
+
+Future work includes gathering policy author feedback from the proposed
+experience, evaluation of making conditional authorization a core primitive of
+Kubernetes and stabilizing the Cedar features required by Kubernetes.
 
 ### Encoding human-like operational knowledge using declarative Kubernetes operator patterns
 
@@ -23,6 +82,8 @@ entropy, automation, declaration of intent, interfaces (computer
 programmes), scalability
 - **License**: [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
 - **PDF**: [Read it here](bsc_thesis.pdf)
+
+**Abstract:**
 
 In recent years, the cloud native paradigm has emerged as an effective way of
 managing server infrastructure, with over 100,000 open source contributors and users
