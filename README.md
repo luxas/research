@@ -22,6 +22,9 @@ A place where I host some research content I've produced.
 - **Date**: Submitted for approval on May 26, 2025
 - **Keywords**: Kubernetes, access control, Cedar, satisfiability modulo theories
 - **License**: [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+- **Presentation**:
+  [On Speakerdeck](https://speakerdeck.com/luxas/usable-access-control-in-cloud-management-systems),
+  presented May 22 at Aalto University.
 - **PDF**: [Read it here](msc_thesis.pdf)
 
 **Abstract:**
