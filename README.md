@@ -1,6 +1,6 @@
 # research
 
-A place where I host some research content I've produced.
+Publications written by Lucas Käldström, mainly in the area of cloud native technologies.
 
 <!-- toc -->
 
@@ -19,8 +19,9 @@ A place where I host some research content I've produced.
 - **Type**: Master's thesis of Science and Technology
 - **Supervisor**: [Dr. Sanna Suoranta](https://research.aalto.fi/en/persons/sanna-suoranta)
 - **Advisor**: [Dr. Stefan Schimanski](https://github.com/sttts)
-- **Date**: Submitted for approval on May 26, 2025
-- **Keywords**: Kubernetes, access control, Cedar, satisfiability modulo theories
+- **Date**: May 26, 2025
+- **Grade**: Excellent, 5/5
+- **Keywords**: Kubernetes, access control, cloud native, Cedar, satisfiability modulo theories, formal logic
 - **License**: [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 - **Presentations**:
   - [At Aalto University](https://speakerdeck.com/luxas/usable-access-control-in-cloud-management-systems),
@@ -28,6 +29,8 @@ A place where I host some research content I've produced.
   -
     [For Kubernetes Special Interest Group Auth](https://speakerdeck.com/luxas/conditional-authorization-for-kubernetes-sig-auth-presentation),
     presented June 4, 2025.
+  - [At Secure Systems Day](https://haic.fi/research/secure-systems-demo-day-2025/), presented June 16, 2025.
+- **University Thesis Page:** https://urn.fi/URN:NBN:fi:aalto-202506174869
 - **PDF**: [Read it here](msc_thesis.pdf)
 
 **Abstract:**
@@ -76,11 +79,13 @@ Kubernetes and stabilizing the Cedar features required by Kubernetes.
 - **Advisors**:
   - [Prof. Mario Di Francesco](https://people.aalto.fi/mario.di.francesco)
   - [Dr. Stefan Schimanski](https://github.com/sttts)
-- **Date**: December 2021
+- **Date**: December 17, 2021
+- **Grade**: Excellent, 5/5
 - **Keywords**: cloud native, Kubernetes, servers, cloud services, control engineering,
 entropy, automation, declaration of intent, interfaces (computer
 programmes), scalability
 - **License**: [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
+- **University Thesis Page:** https://urn.fi/URN:NBN:fi:aalto-202201041023
 - **PDF**: [Read it here](bsc_thesis.pdf)
 
 **Abstract:**
